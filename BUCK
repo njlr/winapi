@@ -1,6 +1,6 @@
 include_defs('//BUCKAROO_DEPS')
 
-prebuilt_cxx_binary(
+prebuilt_cxx_library(
   name = 'boost-winapi',
   header_only = True,
   header_namespace = 'boost/detail',
